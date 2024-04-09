@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: chamod69/nodeapp:latest
+        image: 192.168.111.140:5000/nodeapp:latest
         ports:
         - containerPort: 3000
